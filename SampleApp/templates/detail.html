@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="card" style="width: 25rem;">
+        <div class="card-body">
+            <h3 class="text-center"> {{student_detail.username}}</h3>
+            <span class="d-flex">
+                <label><b>Firstname :</b></label>
+                <p> {{student_detail.firstname}}</p>
+            </span>
+            <span class="d-flex">
+                <label><b>Lastname :</b></label>
+                <p> {{student_detail.lastname}}</p>
+            </span>
+            <span class="d-flex">
+                <label><b>Age :</b></label>
+                <p> {{student_detail.age}}</p>
+            </span>
+            <span class="d-flex">
+                <label><b>Address :</b></label>
+                <p> {{student_detail.address}}</p>
+            </span>
+            <span class="d-flex">
+                <label><b>Phone Number :</b></label>
+                <p> {{student_detail.phone_number}}</p>
+            </span>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
