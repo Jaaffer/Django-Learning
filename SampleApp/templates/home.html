@@ -20,7 +20,7 @@
         <tbody>
             {% for s in student %}
                 <tr>
-                    <td><a href="/{{ s.id }}">{{s.firstname}}</a></td>
+                    <td><a href="/{{ s.id }}/">{{s.firstname}}</a></td>
                     <td>{{s.lastname}}</td>
                     <td>{{s.email}}</td>
                 </tr>
@@ -28,8 +28,19 @@
             <tr>
                 <td><a href="/create"><button class="btn btn-info">Add Student</button></a></td>
             </tr>
+
+            <tr>
+                <td><a href="/fileupload"><button class="btn btn-info">Add Data</button></a></td>
+            </tr>
         </tbody>
     </table>
+
+   
+    {% if messages %}
+    {% for message in messages %}
+    <p class='alert alert-success' role='alert'>{{message}}</p>
+    {% endfor %}
+ {% endif %}
     </div>
 </body>
 </html>

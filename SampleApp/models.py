@@ -10,3 +10,9 @@ class Student(models.Model):
     age = models.IntegerField()
     address = models.CharField(max_length=255)
     phone_number = models.IntegerField()
+
+class File(models.Model):
+    file = models.FileField()
+    
+    def __str__(self):
+        return str(self.file)
