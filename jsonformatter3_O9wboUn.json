@@ -1,0 +1,18 @@
+[{
+  "firstname": "Virat",
+  "lastname": "Jaaffer",
+  "email": "jaaffer@gmail.com",
+  "age": "21",
+  "address": "Bengalur",
+  "phone_number": "987765443",
+  "username": "VJ"
+},
+{
+  "firstname": "Rohit",
+  "lastname": "Virat",
+  "email": "rohit@gmail.com",
+  "age": "25",
+  "address": "Mumbai",
+  "phone_number": "987765443",
+  "username": "RV"
+}]

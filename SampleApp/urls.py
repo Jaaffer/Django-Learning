@@ -8,5 +8,6 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('<int:id>/',views.details, name='details'),
     path('create',views.create, name='create'),
-    path('fileupload',views.fileupload, name='fileupload')
+    path('fileupload',views.fileupload, name='fileupload'),
+    path('bulk-file-upload', views.bulk_file_upload, name='bulk-file-upload'),
 ]
